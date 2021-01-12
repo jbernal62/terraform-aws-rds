@@ -1,6 +1,9 @@
 provider "aws" {
-  region = "eu-west-1"
+  region     = "us-east-1"
+  access_key = "AKIAIXTYZA72S45VNOYA"
+  secret_key = "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"
 }
+ 
 
 ##############################################################
 # Data sources to get VPC, subnets and security group details
